@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Members</title>
+</head>
+<body>
+    <div class="input">
+        <input id="name" class="data" type="text" placeholder="Add Your First Name">
+        <input id="scdNme" class="data" type="text" placeholder="Add Your Second Name">
+        <input id="id" class="data" type="text" placeholder="Add Your ID Number">
+        <input id="email" class="data" type="text" placeholder="Add Your Email">
+        <button id="btn" class="btn">Add Member</button>
+    </div>
+
+    <div>
+        <button class="btn"> <a href="index.html">Back</a> </button>
+    </div>
+    
+
+
+    <script src="./renderer.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+
+    <script src="config.js"></script>
+    <script src="members.js"></script>
+</body>
+</html>

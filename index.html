@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Library Management System</title>
+  </head>
+  <body>
+    <section class="mainSec">
+
+      <div class="sidebar">
+        <h3>Library Management</h3>
+        <ul class="bar">
+          <li class="barItems"> Dashboard</li>
+          <li class="barItems"> <a href="members.html"> Members </a></li>
+          <li class="barItems"> <a href="books.html">Books</a></li>
+          <li class="barItems"><a href="issued.html">Issued</a></li>
+          <li class="barItems"><a href="returned.html">Returned</a></li>
+          <li class="barItems"><a href="returned.html">Not Returned</a></li>
+          <li class="barItems"><a href="register.html">register</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="members">
+          <h1>50</h1>
+          <p>Members</p>
+        </div>
+        <div class="booksAvailable">
+          <h1>500</h1>
+          <p>Books </p>
+        </div>
+        <div class="booksIssued">
+          <h1>70</h1>
+          <p>Books Issued</p>
+        </div>
+        <div class="booksReturned">
+          <h1>45</h1>
+          <p>Books returned</p>
+        </div>
+        <div class="borrowedBooks">
+          <h1>400</h1>
+          <p>Books Borrowed</p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainSec{
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(6, 6, 58);
+    color: white;
+}
+
+.sidebar h3{
+    margin-top: 15px;
+    margin-bottom: 65px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.content{
+    height: 100vh;
+    width: 80%;
+    background-color: lightgray;
+}
+
+.barItems{
+    list-style-type: none;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.content{
+    display: flex;
+    padding-left: 50px;
+}
+
+.members{
+    background-color: darkblue;
+    height: 120px;
+    width: 195px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.booksAvailable{
+    background-color: darkgreen;
+    height: 120px;
+    width: 195px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.booksIssued{
+    background-color: darkred;
+    height: 120px;
+    width: 195px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.booksReturned{
+    background-color: darkorange;
+    height: 120px;
+    width: 195px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.borrowedBooks{
+    background-color: darkorange;
+    height: 120px;
+    width: 195px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input{
+    display: inline;
+
+}
+
+.data{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 100px;
+    height: 25px;
+    background-color: navy;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
